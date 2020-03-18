@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2|Julius+Sans+One|Nixie+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#encabezado{
+    height: 700px;
+    background-color: black;
+    box-sizing: border-box;
+    align-content: center;
+    transition: 0.8s ease-in-out;
+    
+}
+
+#encabezado:hover{
+    background-color: #1C1B1B;
+
+}
+
+
+h1{
+    color: white;
+    font: lighter 50px 'Nixie One' ,cursive;
+    padding: 200px;
+    text-align: center;
+    transition: 0.8s ease-in-out;
+}
+
+#menu {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo 2', cursive;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 10px;
+}
+
+#menu a{ 
+   
+    display: flex;
+    text-decoration: none;
+    color: white;
+    
+}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+
+  @media screen and (max-height: 300px) {
+	#menu {
+		margin-top: 40px;
+	}
+}
+
+#sobremi{
+    height: 1000px;
+    transition: 0.8s ease-in-out;
+    background-color: white;
+}
+
+#sobremi:hover{
+    background-color: #AB3939;
+
+}
+
+#titulo1{ 
+    color: black;
+    font: lighter 40px 'Nixie One' ,cursive;
+    text-align: center;
+    padding: 120px;
+}
+
+p{
+    color: black;
+    font: 14px 'Baloo 2', cursive;
+    padding: 50px 40px;
+    text-align: center;
+    transition: 0.8s ease-in-out;
+    text-transform: uppercase;
+    margin: 0 200px;
+    transition: transform .1.5s;
+    
+  
+}
+
+p:hover{
+    transform: scale(1.2);
+    background-color: white;
+    
+}
+
+#avatar{
+    height: 200px;
+    transition: 1s;
+    display:block;
+    margin:auto;
+    border-radius:150px;
+    position: relative;
+    bottom: 50px;
+}
+
+#avatar:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+#tecnologias{
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    position: relative;
+    bottom: 100px;
+    
+}
+
+#tecnologias a{
+    color: black;
+    
+}
+
+#tecnologias a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  #tecnologias a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+
+  @media screen and (max-height: 300px) {
+	#menu {
+		margin-top: 40px;
+	}
+}
+
+h2{
+    float: right;
+    font: bold 50px 'Nixie One' ,cursive;
+    padding: 20px;
+    transition: 0.8s ease-in-out;
+    
+}
+
+#portafolio{
+    height: 700px;
+    background-color: #1C1B1B;
+
+}
+
+#tituloContacto{
+    padding: 0;
+    position: relative;
+    bottom: 80px
+}
+#contacto{
+    height: 700px;
+    background-image: url(../images/codigo.jpg);
+    background-size: 100%;
+
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    position: relative;
+    top: 100px
+}
+
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+
+}
+
+#boton{
+    background: rgb(53, 53, 53);
+    color: white;
+    padding: 20px;
+    border: none;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+footer{
+    height: 300px;
+    background-color: white;
+    color: black;
+}
+
+h3{
+    text-align: center;
+    font: lighter 15px 'Baloo 2';
+    transition: 0.8s ease-in-out;
+    padding-top: 100px;
+}
+
+
+
